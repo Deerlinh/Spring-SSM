@@ -14,7 +14,7 @@
         </commentGenerator>
 
         <!--连接数据库的信息-->
-        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql:///db_26?useSSL=false"
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql:///kaola?useSSL=false"
         userId="root" password="123456"
           />
     <!--POJO-->
@@ -24,7 +24,7 @@
         <!--Mapper接口-->
         <javaClientGenerator type="XMLMAPPER" targetPackage="com.kaishengit.mapper" targetProject="src/main/java"/>
         
-        <table tableName="mybatis"/>
+        <table tableName="kaola_type"/>
 
     </context>
 </generatorConfiguration>
